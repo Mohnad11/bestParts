@@ -243,6 +243,7 @@ $(document).ready(function(){
     firebase.initializeApp(config);
      database = firebase.database();
     currentUser=getUserFromCookies();
+    window.alert = function() {};
     console.log(document.cookie)
     if(currentUser!=null) {
         var shopCartCntRef = firebase.database().ref('users/' + currentUser.uid + '/shopCartCnt');
