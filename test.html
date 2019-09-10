@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.4.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="scripts.js"></script>
+    <title>best parts</title>
+    <style>
+        .selector{
+            width: 200px;
+            display: inline-block;
+        }
+        #select_button,#search_button{
+            display: inline-block;
+            margin-left: 20px;
+        }
+        #search_input{
+            display: inline-block;
+            width: 400px;
+        }
+
+    </style>
+    <script type="text/javascript" src="http://www.carqueryapi.com/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://www.carqueryapi.com/js/carquery.0.3.4.js"></script>
+    <script src="catalogScript.js"></script>
+</head>
+<body>
+
+
+<div class="content">
+    <h1>select your car</h1><br>
+    <select class="form-control selector" id="car_year_selector" >
+
+    </select>
+    <select class="form-control selector" id="car_make_selector" >
+
+    </select>
+    <select class="form-control selector" id="car_model_selector" >
+
+    </select>
+
+
+    </select>
+    <button type="button" class="btn btn-primary" id="select_button">select</button>
+    <h1>or</h1><br>
+    <input type="text" class="form-control" id="search_input" placeholder="search keyword">
+    <button type="button" class="btn btn-primary" id="search_button">search</button>
+    <br>
+    <br>
+    <br>
+    <div class="items_div">
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,236 @@
+#page_header{
+    background-color: #2699FB;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#center_header{
+    width: 80%;
+    margin: auto;
+}
+#logo_img{
+    height: 50px;
+    margin-top: 5px;
+
+    float: left;
+}
+#buttons_left_div{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+    float:left;
+}
+#buttons_right_div{
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    float:right;
+    position: relative;
+}
+.header_buttons{
+    border: none;
+    background-color: inherit;
+    font-size: 18px;
+    cursor: pointer;
+    color:white;
+    margin-right: 30px;
+}
+.header_icons{
+    height:24px;
+    width: 24px;
+    margin-left: 20px;
+    border: none;
+    background-color: inherit;
+}
+.titles{
+    margin-left: 20px;
+}
+.item_container{
+    height: 340px;
+    width: 200px;
+    border: 1px solid #2699FB;
+    -webkit-box-shadow: -2px 3px 5px 0px rgba(38,153,252,0.18);
+    -moz-box-shadow: -2px 3px 5px 0px rgba(38,153,252,0.18);
+    box-shadow: -2px 3px 5px 0px rgba(38,153,252,0.18);
+    display: inline-block;
+    margin-right: 45px;
+    margin-bottom: 20px;
+    background: #2699FB;
+    padding-left: 10px;
+    padding-right: 10px;
+    position:relative;
+
+}
+#mainframe{
+
+    width: 100%;
+    height:100vh;
+    border: 0;
+}
+.items_div{
+
+}
+.item_image{
+    margin-top: 10px;
+}
+.item_name{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color:white;
+}
+.item_desc{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color:white;
+    height: 60px;
+    overflow: auto;
+}
+.item_price{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    color:white;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+.shop_button{
+    border: none;
+    background-color: inherit;
+    font-size: 17px;
+    cursor: pointer;
+    color:black;
+    margin-left: 10px;
+    padding: 0px;
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+}
+body{
+    margin:0;
+}
+.user_info_inputs{
+    width: 70%;
+    margin: auto;
+}
+#signInModalContent,#userInfoModalContent{
+    width: 70%;
+    margin-right: 10%;
+    margin-top: 4%;
+    float:right;
+}
+#sign_in_button{
+    margin: auto;
+    width: 100%;
+}
+.btn{
+    /*background-color:#2699FB;*/
+}
+#create_acc_button{
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    color:#2699FB;
+    margin: auto;
+    width: 100%;
+}
+#sign_in_error,#sign_up_error{
+    color: red;
+    text-align: center;
+}
+.modal_headers{
+    text-align: center;
+}
+.selector{
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#select_button,#search_button{
+    display: inline-block;
+}
+#search_input{
+    display: inline-block;
+    width: 400px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.user_info{
+    text-align: center;
+}
+#shopcartCnt{
+    position: absolute;
+    left: 32px;
+    width: 20px;
+    height: 22px;
+    top: -12px;
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+
+}
+.delete_btn{
+    font-size: 10px;
+    height: 20px;
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#paySplit{
+    border-top: 1px solid #000000;
+    margin: 0;
+}
+#msgToast{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+#subContent{
+    padding-bottom: 100px;
+}
+.fityourcar{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: white;
+}
+.showfit{
+    color: greenyellow;
+    border: 0;
+    background: 0;
+    height: 12px;
+    padding: 0;
+    margin-left: 10px;
+}
+#collapsibleNavbar{
+    background-color: rgb(38, 153, 251);
+    position: absolute;
+    width: 50%;
+    top: 60px;
+    right: 9.85%;
+}
+.nav-item{
+    text-align: center;
+}
+.nav-link{
+    color: white;
+    font-size: 18px;
+}
+.contactus_info{
+    width:50%;
+}
